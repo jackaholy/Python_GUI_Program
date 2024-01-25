@@ -9,7 +9,7 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 
-
+# Had help from https://chat.openai.com/
 def load_names_from_file(file):
     try:
         with open(file, "r") as file:
